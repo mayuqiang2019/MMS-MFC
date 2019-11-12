@@ -1,0 +1,186 @@
+13:47:46  <SPF> LOG -> starting SPF Recall System MMS Center ...
+13:47:46  <SPF> LOG -> open database completed
+13:47:46  <SPF> LOG -> Get User name - Administr
+13:47:46  <SPF> LOG -> Get Computer name - DELL-MAYUQIANG
+13:47:46  <SPF> LOG -> initialize communication objects completed
+13:47:46  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP START', getdate(), 'Administr')
+13:47:46  <SPF> LOG -> update systemmonitoring set app_name = 'MMS', pc_name = 'DELL-MAYUQIANG', in_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+13:47:48  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+13:47:55  <SPF> LOG -> update systemmonitoring set out_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+13:47:55  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP STOP', getdate(), 'Administr')
+14:26:02  <SPF> LOG -> starting SPF Recall System MMS Center ...
+14:26:02  <SPF> LOG -> open database completed
+14:26:02  <SPF> LOG -> Get User name - Administr
+14:26:02  <SPF> LOG -> Get Computer name - DELL-MAYUQIANG
+14:26:02  <SPF> LOG -> initialize communication objects completed
+14:26:02  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP START', getdate(), 'Administr')
+14:26:02  <SPF> LOG -> update systemmonitoring set app_name = 'MMS', pc_name = 'DELL-MAYUQIANG', in_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:26:04  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:27:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:28:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:29:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:29:09  <COM06> LOG -> No new MMS messages waiting
+14:30:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:31:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:32:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:33:09  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:33:28  <COM06> ERR -> There was a hardware failure in the modem (or other connecting device)
+14:33:38  <COM06> ERR -> The specified TAPI device is already in use
+14:33:38  <COM06> ERR -> The specified TAPI device is already in use
+14:33:38  <COM06> ERR -> communication device closed
+14:34:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 1 where app_code = '0301'
+14:34:03  <SPF> LOG -> update systemmonitoring set out_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:34:03  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP STOP', getdate(), 'Administr')
+14:34:23  <SPF> LOG -> starting SPF Recall System MMS Center ...
+14:34:23  <SPF> LOG -> open database completed
+14:34:23  <SPF> LOG -> Get User name - Administr
+14:34:23  <SPF> LOG -> Get Computer name - DELL-MAYUQIANG
+14:34:23  <SPF> LOG -> initialize communication objects completed
+14:34:23  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP START', getdate(), 'Administr')
+14:34:23  <SPF> LOG -> update systemmonitoring set app_name = 'MMS', pc_name = 'DELL-MAYUQIANG', in_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:34:25  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:35:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:36:01  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:37:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:39:59  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:40:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:41:50  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:42:01  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:42:01  <COM06> LOG -> New MMS message coming
+14:42:02  <COM06> SQL -> insert into MMS_Inbox (phoneno, gsm_no, com_port ...
+14:42:02  <COM06> SQL -> insert into broadcastdetail_mms (mob_id, alarm_id, adhoc_id ...
+14:42:02  <COM06> SQL -> update parameter set Filename_id = Filename_id + 1
+14:43:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:43:52  <SPF> LOG -> update systemmonitoring set out_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:43:52  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP STOP', getdate(), 'Administr')
+14:44:08  <SPF> LOG -> starting SPF Recall System MMS Center ...
+14:44:08  <SPF> LOG -> open database completed
+14:44:08  <SPF> LOG -> Get User name - Administr
+14:44:08  <SPF> LOG -> Get Computer name - DELL-MAYUQIANG
+14:44:08  <SPF> LOG -> initialize communication objects completed
+14:44:08  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP START', getdate(), 'Administr')
+14:44:08  <SPF> LOG -> update systemmonitoring set app_name = 'MMS', pc_name = 'DELL-MAYUQIANG', in_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:44:10  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:44:47  <SPF> LOG -> update systemmonitoring set out_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+14:44:47  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP STOP', getdate(), 'Administr')
+15:11:33  <SPF> LOG -> starting SPF Recall System MMS Center ...
+15:11:33  <SPF> LOG -> open database completed
+15:11:33  <SPF> LOG -> Get User name - Administr
+15:11:33  <SPF> LOG -> Get Computer name - DELL-MAYUQIANG
+15:11:33  <SPF> LOG -> initialize communication objects completed
+15:11:33  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP START', getdate(), 'Administr')
+15:11:33  <SPF> LOG -> update systemmonitoring set app_name = 'MMS', pc_name = 'DELL-MAYUQIANG', in_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:11:35  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:12:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:13:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:14:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:15:12  <COM06> LOG -> No new MMS messages waiting
+15:15:12  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:16:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:16:40  <SPF> LOG -> update systemmonitoring set out_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:16:40  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP STOP', getdate(), 'Administr')
+15:16:51  <SPF> LOG -> starting SPF Recall System MMS Center ...
+15:16:51  <SPF> LOG -> open database completed
+15:16:51  <SPF> LOG -> Get User name - Administr
+15:16:51  <SPF> LOG -> Get Computer name - DELL-MAYUQIANG
+15:16:51  <SPF> LOG -> initialize communication objects completed
+15:16:51  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP START', getdate(), 'Administr')
+15:16:51  <SPF> LOG -> update systemmonitoring set app_name = 'MMS', pc_name = 'DELL-MAYUQIANG', in_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:16:53  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:17:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:18:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:19:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:20:05  <COM06> ERR -> The specified TAPI device is already in use
+15:20:05  <COM06> ERR -> The specified TAPI device is already in use
+15:20:05  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:20:05  <COM06> ERR -> communication device closed
+15:21:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 1 where app_code = '0301'
+15:21:38  <SPF> LOG -> update systemmonitoring set out_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:21:38  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP STOP', getdate(), 'Administr')
+15:21:46  <SPF> LOG -> starting SPF Recall System MMS Center ...
+15:21:46  <SPF> LOG -> open database completed
+15:21:46  <SPF> LOG -> Get User name - Administr
+15:21:46  <SPF> LOG -> Get Computer name - DELL-MAYUQIANG
+15:21:46  <SPF> LOG -> initialize communication objects completed
+15:21:46  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP START', getdate(), 'Administr')
+15:21:46  <SPF> LOG -> update systemmonitoring set app_name = 'MMS', pc_name = 'DELL-MAYUQIANG', in_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:21:48  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:22:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:23:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:24:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:25:00  <COM06> LOG -> No new MMS messages waiting
+15:25:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:25:03  <COM06> SQL -> insert into SMS_Inbox (phoneno, gsm_no, com_port ...
+15:25:03  <COM06> SQL -> insert into broadcastdetail_sms (mob_id, alarm_id, adhoc_id ...
+15:25:15  <COM06> LOG -> Release MMS Gateway Memory: OK
+
+15:26:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:27:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:28:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:28:45  <COM06> LOG -> No new MMS messages waiting
+15:28:48  <COM06> SQL -> insert into SMS_Inbox (phoneno, gsm_no, com_port ...
+15:28:48  <COM06> SQL -> insert into broadcastdetail_sms (mob_id, alarm_id, adhoc_id ...
+15:29:00  <COM06> LOG -> Release MMS Gateway Memory: OK
+
+15:29:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:30:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:31:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:32:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:32:08  <COM06> LOG -> No new MMS messages waiting
+15:33:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:34:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:35:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:35:05  <SPF> LOG -> update systemmonitoring set out_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+15:35:05  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP STOP', getdate(), 'Administr')
+16:18:30  <SPF> LOG -> starting SPF Recall System MMS Center ...
+16:18:30  <SPF> LOG -> open database completed
+16:18:30  <SPF> LOG -> Get User name - Administr
+16:18:30  <SPF> LOG -> Get Computer name - DELL-MAYUQIANG
+16:18:30  <SPF> LOG -> initialize communication objects completed
+16:18:30  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP START', getdate(), 'Administr')
+16:18:30  <SPF> LOG -> update systemmonitoring set app_name = 'MMS', pc_name = 'DELL-MAYUQIANG', in_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:18:32  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:19:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:20:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:21:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:22:32  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:23:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:23:15  <COM06> LOG -> New MMS message coming
+16:23:16  <COM06> SQL -> insert into MMS_Inbox (phoneno, gsm_no, com_port ...
+16:23:16  <COM06> SQL -> insert into broadcastdetail_mms (mob_id, alarm_id, adhoc_id ...
+16:23:16  <COM06> SQL -> update parameter set Filename_id = Filename_id + 1
+16:24:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:25:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:26:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:28:09  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:28:47  <COM06> LOG -> New MMS message coming
+16:28:47  <COM06> SQL -> insert into MMS_Inbox (phoneno, gsm_no, com_port ...
+16:28:47  <COM06> SQL -> insert into broadcastdetail_mms (mob_id, alarm_id, adhoc_id ...
+16:28:47  <COM06> SQL -> update parameter set Filename_id = Filename_id + 1
+16:29:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:29:09  <SPF> LOG -> update systemmonitoring set out_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:29:09  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP STOP', getdate(), 'Administr')
+16:44:57  <SPF> LOG -> starting SPF Recall System MMS Center ...
+16:44:57  <SPF> LOG -> open database completed
+16:44:57  <SPF> LOG -> Get User name - Administr
+16:44:57  <SPF> LOG -> Get Computer name - DELL-MAYUQIANG
+16:44:57  <SPF> LOG -> initialize communication objects completed
+16:44:57  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP START', getdate(), 'Administr')
+16:44:57  <SPF> LOG -> update systemmonitoring set app_name = 'MMS', pc_name = 'DELL-MAYUQIANG', in_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:44:59  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:45:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:46:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:47:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:48:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:49:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:49:23  <COM06> LOG -> New MMS message coming
+16:49:23  <COM06> SQL -> insert into MMS_Inbox (phoneno, gsm_no, com_port ...
+16:49:23  <COM06> SQL -> insert into broadcastdetail_mms (mob_id, alarm_id, adhoc_id ...
+16:49:23  <COM06> SQL -> update parameter set Filename_id = Filename_id + 1
+16:50:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:51:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:52:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:52:28  <COM06> LOG -> No new MMS messages waiting
+16:53:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:53:02  <SPF> LOG -> update systemmonitoring set out_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+16:53:02  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP STOP', getdate(), 'Administr')

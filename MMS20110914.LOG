@@ -1,0 +1,16 @@
+19:43:03  <SPF> LOG -> starting SPF Recall System MMS Center ...
+19:43:03  <SPF> LOG -> open database completed
+19:43:03  <SPF> LOG -> Get User name - Administr
+19:43:03  <SPF> LOG -> Get Computer name - DELL-MAYUQIANG
+19:43:03  <SPF> LOG -> initialize communication objects completed
+19:43:03  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP START', getdate(), 'Administr')
+19:43:03  <SPF> LOG -> update systemmonitoring set app_name = 'MMS', pc_name = 'DELL-MAYUQIANG', in_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+19:43:05  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+19:44:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+19:45:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+19:46:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+19:46:32  <COM06> ERR -> The PPP link control protocol was terminated
+19:46:58  <COM06> ERR -> The PPP link control protocol was terminated
+19:47:00  <SPF> LOG -> update systemmonitoring set pro_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+19:47:02  <SPF> LOG -> update systemmonitoring set out_dttm = getdate(), alarm_dttm = dateadd(n,5,getdate()), chans_block = 0, chans_dttm = getdate(), chans_alarm = dateadd(n,5,getdate()) where app_code = '0301'
+19:47:02  <SPF> SQL -> insert into audit_trace (app_name, pc_name, [function], action, action_dttm, action_by) values ('MMS', 'DELL-MAYUQIANG', '0301', 'APP STOP', getdate(), 'Administr')
