@@ -18,6 +18,8 @@ IMPLEMENT_DYNCREATE(CMsgView, CEditView)
 
 CMsgView::CMsgView()
 {
+	m_pApp = (CServerApp *)AfxGetApp();
+	ASSERT( m_pApp != NULL );
 }
 
 CMsgView::~CMsgView()
